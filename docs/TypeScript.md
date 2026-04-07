@@ -16,20 +16,20 @@ TypeScript 是 JavaScript 的超集,添加了类型系统。
 
 
 ## 学习路径
-1. 掌握 [[JavaScript]] 基础
+1. 掌握 [JavaScript](JavaScript.md) 基础
 2. 学习 TypeScript 类型系统
 3. 实践: 将 JS 项目迁移到 TS
 
 ## 相关技术
-- [[JavaScript]] - 基础语言
-- [[前端开发]] - React/Vue + TS
-- [[后端开发]] - Node.js + TS
-- [[代码规范]] - TypeScript ESLint
+- [JavaScript](JavaScript.md) - 基础语言
+- [前端开发](前端开发.md) - React/Vue + TS
+- [后端开发](后端开发.md) - Node.js + TS
+- [代码规范](代码规范.md) - TypeScript ESLint
 
 ## 最佳实践
 - 启用 strict 模式
 - 避免使用 any
 - 使用接口定义契约
-- 配合 [[测试]] 框架使用
+- 配合 [测试](测试.md) 框架使用
 
 #TypeScript #语言 #类型安全
