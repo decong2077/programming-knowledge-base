@@ -1,0 +1,94 @@
+site_name: 编程知识体系
+site_description: 系统化的编程知识管理仓库,从入门到进阶的完整知识网络
+site_author: decong2077
+repo_name: decong2077/programming-knowledge-base
+repo_url: https://github.com/decong2077/programming-knowledge-base
+site_url: https://decong2077.github.io/programming-knowledge-base/
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+nav:
+  - 首页: index.md
+  - 编程基础:
+    - 编程导论: 编程导论.md
+    - 学习路径: 编程学习路径.md
+    - 工程实践: 工程实践.md
+  - 编程语言:
+    - Python: Python.md
+    - JavaScript: JavaScript.md
+    - TypeScript: TypeScript.md
+    - Go: Go.md
+  - 技术栈:
+    - 前端开发: 前端开发.md
+    - 后端开发: 后端开发.md
+    - 数据库: 数据库.md
+    - DevOps: DevOps.md
+  - 工程实践:
+    - 设计模式: 设计模式.md
+    - 测试: 测试.md
+    - 代码规范: 代码规范.md
+    - 版本控制: 版本控制.md
+  - 学习资源:
+    - 书籍推荐: 编程书籍推荐.md
+    - 在线课程: 在线课程.md
+    - 技术社区: 技术社区.md
+  - 职业发展:
+    - 成长路线: 程序员成长路线.md
+    - 面试准备: 技术面试准备.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/decong2077/programming-knowledge-base
+  generator: false
+
+copyright: Copyright &copy; 2026 编程知识体系
